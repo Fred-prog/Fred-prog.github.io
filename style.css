@@ -741,6 +741,26 @@ h4 {
   color: #ffffff !important;
 }
 
+.size-title {
+  font-size: 2.7em;
+}
+
+@media (max-width: 767px) {
+  .size-title {
+    font-size: 2em;
+  }
+}
+
+.citation {
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+.citation-origine {
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
 .portfolio-thumb {
   margin-bottom: 24px;
 }
@@ -824,7 +844,7 @@ h4 {
 }
 
 .bg-presentation {
-  background-image: url("img/image-de-presentation.bmp");
+  background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
