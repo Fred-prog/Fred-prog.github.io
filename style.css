@@ -1062,3 +1062,7 @@ h4 {
     text-align: center;
   }
 }
+
+main h2:focus {
+  background: red;
+}
