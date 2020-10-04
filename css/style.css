@@ -335,6 +335,7 @@ a:hover {
 .nav > li a:hover,
 .nav > li a:focus {
   background: transparent;
+  outline: dotted 2px black;
 }
 
 .navbar-toggle {
@@ -761,6 +762,11 @@ h4 {
   font-weight: bold;
 }
 
+li:focus-visible {
+  background: black;
+  color: white;
+}
+
 .portfolio-thumb {
   margin-bottom: 24px;
 }
@@ -802,12 +808,12 @@ h4 {
 
 .btn-atomic-tangerine {
   background: #f3976c;
-  color: #ffffff !important;
+  color: #2f1204 !important;
 }
 
 .btn-atomic-tangerine:hover {
   background: #c27956 !important;
-  color: #ffffff !important;
+  color: #2f1204 !important;
 }
 
 .ltc-white {
@@ -870,13 +876,13 @@ h4 {
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .b-parallax {
     background-attachment: scroll;
   }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
   .b-parallax {
     background-attachment: scroll;
   }
@@ -894,10 +900,10 @@ h4 {
     overflow-x: hidden;
     position: relative;
   }
-  .bloc {
+  /*.bloc {
     padding-left: constant(safe-area-inset-left);
     padding-right: constant(safe-area-inset-right);
-  }
+  }*/
   .bloc-group,
   .bloc-group .bloc {
     display: block;
@@ -906,8 +912,8 @@ h4 {
   .bloc-fill-screen .fill-bloc-top-edge,
   .bloc-fill-screen .fill-bloc-bottom-edge {
     padding: 0 20px;
-    padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
+    /*padding-left: constant(safe-area-inset-left);
+    padding-right: constant(safe-area-inset-right);*/
   }
 }
 
@@ -1063,6 +1069,26 @@ h4 {
   }
 }
 
-main h2:focus {
-  background: red;
+.size-p {
+  font-size: larger;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.bold-p {
+  font-weight: bold;
+}
+
+.margin-p {
+  margin-left: 50px;
+}
+
+.browny {
+  color: #2f1204;
+}
+
+.redly {
+  color: blanchedalmond;
 }
